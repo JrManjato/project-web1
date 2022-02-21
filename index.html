@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="quicksand/Quicksand-VariableFont_wght.ttf">
+    <title>Document</title>
+</head>
+<body>
+    <p id="top"></p>
+    <header>
+                <div class="container">
+                    <div class="logo"> <img src="Images/plane.png" alt="business"></div>
+                    <div class="menu"> <a href="Voyage à Madagascar.html" title="nav">Acceuil</a></div>
+                    <div class="menu"> <a href="a_explorer.html" title="nav">A explorer</a></div>  
+                    <div class="menu"> <a href="contact.html" title="nav">Contact</a></div> 
+                    <div class="menu"> <a href="a_propos.html" title="nav">A propos</a></div> 
+                    <div class="logo"> <img src="Images/flag.png" alt="logo"></div> 
+                </div>         
+    </header>
+
+ <div class="lol">
+    <div class="baniere">
+        <div class="voyage">
+            <p id="organiser">Organiser votre voyage à <strong>Madagascar</strong> avec notre agence</p>
+            <p><img src="Images/logo.png" alt="entreprise"></p>
+        </div>
+        <div class="reservation"><h6 class="rdmvs">Réservez dès maintenant votre séjour :</h6>
+            <form action="post.php">
+            <div class="grp_formulaire">
+                <div class="mt">
+                    <p>
+                        <label for="mail">Mail :</label> <input type="email" name="mail" id="mail" placeholder="Votre adresse mail" required/>
+                    </p> 
+                    <p>
+                        <label for="tphone">Tel :</label> <input type="tel" name="tphone" id="tphone" placeholder="Votre numero de téléphone" required/>
+                    </p> 
+                    
+                </div> 
+
+                <div class="ad">
+                    <p>
+                        <label for="jour">Arrivée :</label> <input type="date" name="jour" id="jour" required/>
+                    </p>
+                   <p> <label for="duree">Durée de votre séjour :</label><select name="duree" id="duree" required>
+                    <option value="30j">30 jours</option>
+                    <option value="20j">20 jours</option>
+                    <option value="15j">15 jours</option>
+                    <option value="10j">10 jours</option>
+                    <option value="autre">Autres</option>
+                </select> </p>
+                </div>
+
+                <div class="ae">
+                    <p>
+                        <label for="adulte">Adulte(s) :</label> <input type="number" name="adulte" id="adulte" required/>
+                    </p>
+                    <p>
+                        <label for="enfant">Enfants(s) :</label> <input type="number" name="enfant" id="enfant" required/>
+                    </p>
+                    
+                </div>
+                <div class="res">
+                        <p>
+                            <input type="submit" value="RESERVER"/>
+                        </p>
+                </div>                 
+            </div>     
+        </form>
+    </div>
+    </div>
+
+</div>
+
+<div class="service"> <span>NOS SERVICES</span>  <br> 
+<i class="fas fa-bars" style="color: orange;"></i></div>
+
+<div class="contain-serv">
+    <div class="air">
+        <i class="fas fa-plane fa-2x" style="color:orange"></i>
+        <h4>Billet d'avion</h4>
+        <p>Chez notre agence de voyage, nous pouvons vous réserver des billets d'avions vers votre destination.
+            Nous fournissons également une réservation de billets en ligne via notre site Web en quelques étapes.</p>
+    </div>
+    <div class="croisiere">
+        <i class="fas fa-map fa-2x" style="color:orange"></i>
+        <h4>Voyage & Croisières</h4>
+        <p>Outre les visites et les excursusions régulières, nous offrons également une variété de croisières et de merveilleux voyages
+            à différents clients à la recherche d'expériences inoubliables.
+            </p>
+    </div>
+    <div class="hotel">
+        <i class="fas fa-hotel fa-2x" style="color:orange"></i>
+        <h4>Réservation d'hotel</h4>
+        <p>Nous offrons un large choix d'hôtel allant de 5 étoiles à des petits propriétés situées dans tous le régions afin que vous puissiez réservez un hôtel que vous aimez.
+        </p>
+    </div>
+    <div class="summer">
+        <i class="fas fa-umbrella-beach fa-2x" style="color:orange"></i>
+        <h4>Summer Tours</h4>
+        <p>Notre agence fournit des visites variées y compris les Summer Tours pour les clients qui cherchent des vacances exclusives et mémorables.</p>
+    </div>
+    
+</div>
+
+<footer>
+<div class="cti">
+    <div class="ct"> <p>www.ManjatoTravelAgency.mg</p></div>
+    <div class="icon"> <i class="fab fa-facebook" style="padding: 10px;"></i>
+        <i class="fab fa-linkedin-in" style="padding: 10px;"></i>
+        <i class="fab fa-pinterest" style="padding: 10px;"></i>
+        <i class="fab fa-twitter" style="padding: 10px;"></i>
+        <i class="fab fa-google" style="padding: 10px;"></i> </div>
+</div>
+  
+
+    <div class="grp_contact">
+
+        <div class="adresse">
+            <h3>Notre adresse <i class="fas fa-map-marker-alt" style="padding: 10px; color: orange;"></i></h3>
+            <p>Antananarivo 101 Mahamasina <br>
+            Antsirabe 110 Est Gare</p></div>
+
+        <div class="mail">
+            <h3>E-mail <i class="fab fa-google" style="padding: 10px; color: orange;"></i></h3> 
+            <p>contact@manjatotravel.com <br>
+            office@manjatotravel.com</p>
+        </div>
+
+        <div class="tel">
+            <h3>Téléphone <i class="fas fa-phone" style="padding: 10px; color:orange"></i></h3>
+            <p> 0800 4125 800 50 <br>
+            0405 5886 625 15</p>
+        </div>
+    </div>
+    
+</footer>
+
+<div class="bot"><a href="#top"> <i class="fas fa-arrow-up fa-2x"></i></a></div>
+
+</body>
+</html>
