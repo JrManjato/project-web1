@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Landing page template built with HTML and Bootstrap 4 for presenting training courses, classes, workshops and for convincing visitors to register using the form.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Inscription aux concours de HEI</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	  <link href="css/magnific-popup.css" rel="stylesheet">
+	  <link href="css/formulaire.css" rel="stylesheet">
+	
+ 
+  <!-- Header-->
+    <div class="container" id="top">
+     <span><a class="logo" href="../index.html"><img src="images/logoHei.webp" alt="logo de la HEI"></a>Haute Ecole d'Informatique</span>   
+    </div>
+  <!-- end of header -->
+
+
+<section>
+<!-- Registration -->
+<div id="register" class="form-1">
+    <h5>Inscription aux concours de HEI</h5>
+    <p>Pour vous inscrire au concours d'entrée, veuillez remplir le formulaire jusqu'à la fin</p>
+    <div class="container">
+        <div class="row justify-content-center"> 
+            <div class="col-lg-6">     
+                <!-- Registration Form -->
+                <div class="form-container">
+                    <form id="registrationForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="rname" name="rname" required>
+                            <label class="label-control" for="rname">Nom</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="prname" name="prname" required>
+                            <label class="label-control" for="prname">Prénom</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cin" name="cin">
+                            <label class="label-control" for="cin">CIN (pour les majeurs)</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group" style="padding-top: 1.3%;">
+                            <input type="date" class="form-control-input" id="dat-nat" name="dat-nat" required>
+                            <label class="label-control" for="dat-nat">Date de naissance</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="serie">
+                            <h6>Série BACC</h6>
+                            <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Série_A1" value="option1">
+                                  Série A1
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Série_A2" value="option2">
+                                  Série A2
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Série_C" value="option3">
+                                  Série C
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Série_D" value="option3">
+                                  Série D
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Technique" value="option3">
+                                  Technique
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Autre" value="option3">
+                                  Autre
+                                </label>
+                              </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="year" name="year" required>
+                            <label class="label-control" for="year">Année d'obtention du BACC</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="serie">
+                            <h6>Mention au Bacc</h6>
+                            <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Passable" value="option1">
+                                  Passable
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Assez_Bien" value="option2">
+                                  Assez Bien
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Bien" value="option3">
+                                  Bien
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="optionsRadios" id="Très_Bien" value="option3">
+                                  Très Bien
+                                </label>
+                              </div>
+                        </div>
+                        <div class="serie">
+                          <h6>Autre(s) diplôme(s) obtenu(s)</h6>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" value="">
+                              BACC +2
+                            </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" value="">
+                              Licence
+                            </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" value="">
+                              Master
+                            </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" value="">
+                              DEA
+                            </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" value="">
+                              Doctorat
+                            </label>
+                          </div>                                                                                                                             
+                          <div class="form-group">
+                            <input type="text" class="form-control-input" id="autre" name="autre">
+                            <label class="label-control" for="autre">Autre</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control-input" id="adresse" name="adresse" required>
+                          <label class="label-control" for="adresse">Adresse exacte (Lot, Quartier, Commune, Province)</label>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="serie">
+                          <h6>Envisagez-vous demander une bourse d’études chez HEI ? </h6>
+                          <div class="radio">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                                oui
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                Non
+                              </label>
+                            </div>                         
+                      </div>
+                      <div class="serie">
+                        <h6>Si vous avez coché "oui" sur la question précédente, quel type de bourses ?</h6>
+                        <div class="radio">
+                            <label>
+                              <input type="radio" name="optionsRadios" id="sociaux" value="option1">
+                              Bourse à critères sociaux
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="optionsRadios" id="excellence" value="option2">
+                              Bourse d'excellence
+                            </label>
+                          </div>                         
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control-input" id="numero" name="numero" required>
+                      <label class="label-control" for="numero">Votre numéro mobile</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control-input" id="ref" name="ref" style="height: 5rem;" required>
+                      <label class="label-control" for="ref">N° de référence de transfert des frais d'inscription au concours par MVola <br> (40 000Ar, +261 34 94 041 16, Fihariantsoa)</label>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="remail" name="remail">
+                            <label class="label-control" for="remail">Adresse mail</label>
+                            <div class="help-block with-errors"></div>
+                        </div>                    
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Envoyer</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                </div> <!-- end of form-container -->
+                <!-- end of registration form -->
+                
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of form-1 -->
+<!-- end of registration -->
+</section>
+    
+<!-- footer section -->
+<footer id="contact" class="footer">
+    <div class="container gp-contact">
+        <div class="row">
+      <div class="col-md-3">
+        <h4>Notre adresse <i class="fas fa-map-marker-alt"></i></h4>
+        <p>Ivandry 101 Antananarivo</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Mail<i class="fas fa-envelope"></i></h4>
+        <p>contact@hei.school</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Téléphone<i class="fas fa-phone"></i></h4>
+        <p>+261 34 94 041 16</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Réseaux sociaux</h4>
+        <div class="icn">
+          <a href="https://web.facebook.com/hei.school?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>   
+      <a href="https://www.linkedin.com/company/hei-school/"><i class="fab fa-linkedin-in"></i></a>
+        </div> 
+    </div>  
+      </div>
+    </div>
+  </footer>
+  <!-- footer section --> 
+  
+  <!-- copyright --> 
+  <div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+              <p class="ending">© HEI - SARLU ANTANANARIVO<a href="#top"><i class="fas fa-arrow-up"></i></a></p>
+            </div> <!-- end of col -->
+        </div> <!-- enf of row -->
+    </div> <!-- end of container -->
+  </div>
+  <!-- End of copyright --> 
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
