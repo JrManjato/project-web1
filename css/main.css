@@ -10,6 +10,9 @@
 /* ------------------------------------------------------------------------------
 	 Typography
 -------------------------------------------------------------------------------*/
+*{
+	scroll-behavior: smooth;
+}
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -314,7 +317,7 @@ ul li {
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 680px;
+	min-height: 700px;
 }
 .banner-inner-wrapper {
 	float: none;
@@ -354,7 +357,7 @@ ul li {
 	Partie 5 --> Accueil
 ========================================================================== */
 section + .section-introduction{
-	margin-top: 6%;
+	margin-top: 2%;
 }
 #introduction{
 	background-image:linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/header-background.jpg);
@@ -706,3 +709,25 @@ margin-left: 10%;
 	margin-left: 10%;
 	}
 /* End of Copyright */
+
+[class*="reveal-"]{
+	opacity: 0;
+	transform: translate(-30px);
+}
+.reveal-visible{
+	opacity: 1;
+	transform: translate(0);
+	transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+.reveal-2{
+	transition-delay: .1s;
+}
+.reveal-3{
+	transition-delay: .2s;
+}
+.reveal-4{
+	transition-delay: .3s;
+}
+.reveal-5{
+	transition-delay: .4s;
+}
