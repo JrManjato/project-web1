@@ -1,3 +1,11 @@
+/* ------------------------------------------------------------------------------
+	Template Name: Floix
+	Author: Designstub
+	Author URI: http://www.designstub.com
+------------------------------------------------------------------------------*/
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 /* ------------------------------------------------------------------------------
 	 Typography
@@ -702,6 +710,7 @@ margin-left: 10%;
 	}
 /* End of Copyright */
 
+/*reveal an element (with class "reveal-")*/
 [class*="reveal-"]{
 	opacity: 0;
 	transform: translate(-30px);
