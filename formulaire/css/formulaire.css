@@ -1496,80 +1496,6 @@ input[type='checkbox'] {
 	border: 0.125rem solid #ffedd0;
 	background-color: #ffedd0;
 }
-
-
-/**********************/
-/*     17. Footer     
-
-.footer {
-	padding-top: 4.75rem;
-	padding-bottom: 2rem;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/header-background.jpg') center center no-repeat;
-	background-size: cover;
-}
-
-.footer .footer-col {
-	margin-bottom: 2.25rem;
-}
-
-.footer h5 {
-	margin-bottom: 0.5rem;
-}
-
-.footer a { 
-	text-decoration: none;
-}
-
-.footer h5,
-.footer p,
-.footer a {
-	color: #bbb;
-}
-
-.footer .list-unstyled .fas {
-	color: #bbb;
-	font-size: 0.5rem;
-	line-height: 1.375rem;
-}
-
-.footer .list-unstyled .media-body {
-	margin-left: 0.625rem;
-}
-
-.footer .fab {
-	margin-bottom: 0.75rem;
-	margin-right: 1rem;
-	color: #ccc;
-	font-size: 1.25rem;
-	transition: all 0.2s ease;
-}
-
-.footer .fab:hover {
-	color: #ffbd50;
-}
-
-
-/*************************/
-/*     18. Copyright    
-
-.copyright {
-	padding-top: 1.5rem;
-	padding-bottom: 0.375rem;
-	background-color: #000;
-	text-align: center;
-}
-
-.copyright .p-small {
-	color: #999;
-	font-size: 0.75rem;
-	line-height: 1.375rem;
-}
-
-.copyright a {
-	color: #999;
-}
-
-*/
 /*     19. Back To Top Button     */
 /**********************************/
 a.back-to-top {
@@ -1589,12 +1515,6 @@ a.back-to-top {
 a:hover.back-to-top {
 	background-color: #f0a731; 
 }
-
-
-/***************************/
-
-/*****************************/
-
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
@@ -1686,7 +1606,7 @@ text-align: center;
 padding-top: 0.5rem;
 background-color: #ffbd50;
 color: rgb(0, 0, 0);
-margin-left: 5%;
+margin-left: 3%;
 }
 .copyright i:hover{
 	width: 2rem;
@@ -1721,3 +1641,26 @@ a + .btn{
 	text-align: center;
 }
 /* End of Copyright */
+
+/*reveal an element (with class "reveal-")*/
+[class*="reveal-"]{
+	opacity: 0;
+	transform: translate(-30px);
+}
+.reveal-visible{
+	opacity: 1;
+	transform: translate(0);
+	transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+.reveal-2{
+	transition-delay: .1s;
+}
+.reveal-3{
+	transition-delay: .2s;
+}
+.reveal-4{
+	transition-delay: .3s;
+}
+.reveal-5{
+	transition-delay: .4s;
+}
