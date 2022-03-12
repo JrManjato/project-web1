@@ -1,54 +1,13 @@
-/* Template: Corso - Free Training Course Landing Page Template
-   Author: Inovatik
-   Created: Nov 2019
-   Description: Master CSS file
-*/
-
-/*****************************************
-Table Of Contents:
-
-01. General Styles
-02. Preloader
-03. Navigation
-04. Header
-05. Registration
-06. Partners
-07. Instructor
-08. Description
-09. Students
-10. Details Lightbox
-11. Video
-12. Takeaways
-13. Testimonials
-14. Date
-15. Newsletter
-16. Contact
-17. Footer
-18. Copyright
-19. Back To Top Button
-20. Extra Pages
-21. Media Queries
-******************************************/
-
-/*****************************************
-Colors:
-- Backgrounds - light gray #fbf9f5
-- Backgrounds, buttons - yellow #ffbd50
-- Headings text, navbar links - black #333
-- Body text - dark gray #555
-******************************************/
-
-/* HEI-Color color: rgb(212, 164, 36); */
-/******************************/
 /*     01. General Styles     */
 /******************************/
-
+*{
+	scroll-behavior: smooth;
+}
 body,
 html {
     width: 100%;
 	height: 100%;
 }
-
 body, p {
 	color: #555; 
 	font: 400 1rem/1.625rem "Montserrat", sans-serif;
@@ -1727,7 +1686,7 @@ text-align: center;
 padding-top: 0.5rem;
 background-color: #ffbd50;
 color: rgb(0, 0, 0);
-margin-left: 10%;
+margin-left: 5%;
 }
 .copyright i:hover{
 	width: 2rem;
@@ -1738,6 +1697,27 @@ margin-left: 10%;
 	padding-top: 0.5rem;
 	background-color: transparent;
 	color: rgb(255, 255, 255);	
-	margin-left: 10%;
-	}
+}
+.btn{
+	margin-left: 1.5rem;
+	border: #ffbd50 2px solid;
+	color: rgb(0, 0, 0);
+	border-radius: 25px;
+	background-color:#ffbd50;
+	font-weight: 600;
+	height: 1.5rem;
+	width: 7rem;
+	margin-bottom: 0.5rem;
+}
+.btn:hover{
+	border: rgb(0, 0, 0) 2px solid;
+	border-radius: 25px;
+	background-color: white;
+	color: black;
+}
+a + .btn{
+	text-decoration: none;
+	padding-bottom: 1.5rem;
+	text-align: center;
+}
 /* End of Copyright */
